@@ -9378,9 +9378,16 @@ fn review_language_validates_tags_and_marks_text_unchecked() {
     assert_eq!(run(&mut s, "format.state", json!({}))["lang"], "pl");
     run(&mut s, "review.language", json!({}));
     assert_eq!(run(&mut s, "format.state", json!({}))["lang"], "en-US");
-    // A language without proofing tools: no marks.
-    run(&mut s, "review.language", json!({"lang": "fr-FR"}));
+    // `x-none` always has no proofing tools. A real language such as fr-FR can acquire a
+    // dictionary from the system or an installed language pack, so it is not a stable fixture.
+    run(&mut s, "review.language", json!({"lang": "x-none"}));
+    let st = run(&mut s, "format.state", json!({}));
+    assert_eq!((st["noProof"].clone(), st["lang"].clone()), (json!(false), json!("x-none")));
     assert_eq!(run(&mut s, "review.issues", json!({})), json!([]));
+    run(&mut s, "review.language", json!({"lang": "en-US"}));
+    let issues = run(&mut s, "review.issues", json!({}));
+    assert_eq!(issues.as_array().unwrap().len(), 1);
+    assert_eq!(issues[0]["text"], "wrold", "switching back restores proofing");
 }
 
 /// The editing language (set by the front end from the interface language): new blank
