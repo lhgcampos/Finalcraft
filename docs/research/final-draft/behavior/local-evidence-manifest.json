@@ -1,0 +1,727 @@
+{
+  "date": "2026-11-07",
+  "target": "Final Draft 13.5.0 build 123 (About UI)",
+  "host": "macOS 26.6.2 (25G83), arm64",
+  "timezone": "America/Sao_Paulo",
+  "evidence_directory": "plan/final-draft/runtime-2026-11-07",
+  "restriction": "Arquivos gerados pelo produto e fontes embutidas permanecem locais/gitignored. PNGs sao renders de PDF, nao screenshots da interface. Nenhum asset ou fonte foi extraido para o repositorio.",
+  "reopen_checks": [
+    {
+      "document": "01-editor",
+      "before": "01-editor-custom-return-confirmed.fdx",
+      "after": "01-editor-final-reopened.fdx",
+      "equal_subtrees": {
+        "Content": false,
+        "PageLayout": true,
+        "LockedPages": true,
+        "MoresAndContinueds": true,
+        "ElementSettings": true,
+        "SmartType": true
+      },
+      "attribute_changes_in_content": [
+        {
+          "path": "Content/Paragraph[0]/SceneProperties[0]/SceneArcBeats[0]/CharacterArcBeat[0]/Paragraph[0]",
+          "before": {
+            "Alignment": "Left",
+            "FirstIndent": "0.00",
+            "Leading": "Regular",
+            "LeftIndent": "0.00",
+            "OutlineLevel": "0",
+            "RightIndent": "1.39",
+            "SpaceBefore": "0",
+            "Spacing": "1",
+            "StartsNewPage": "No",
+            "id": "6380d07f-6de9-4153-8993-7d835019431d"
+          },
+          "after": {
+            "Alignment": "Left",
+            "FirstIndent": "0.00",
+            "Leading": "Regular",
+            "LeftIndent": "0.00",
+            "OutlineLevel": "0",
+            "RightIndent": "1.39",
+            "SpaceBefore": "0",
+            "Spacing": "1",
+            "StartsNewPage": "No",
+            "id": "ed7fa0d1-e806-408c-9983-0017dc6a4c9e"
+          }
+        },
+        {
+          "path": "Content/Paragraph[0]/SceneProperties[0]/SceneArcBeats[0]/CharacterArcBeat[1]/Paragraph[0]",
+          "before": {
+            "Alignment": "Left",
+            "FirstIndent": "0.00",
+            "Leading": "Regular",
+            "LeftIndent": "0.00",
+            "OutlineLevel": "0",
+            "RightIndent": "1.39",
+            "SpaceBefore": "0",
+            "Spacing": "1",
+            "StartsNewPage": "No",
+            "id": "e4deb134-f5d7-424f-b37d-0467cc337d4d"
+          },
+          "after": {
+            "Alignment": "Left",
+            "FirstIndent": "0.00",
+            "Leading": "Regular",
+            "LeftIndent": "0.00",
+            "OutlineLevel": "0",
+            "RightIndent": "1.39",
+            "SpaceBefore": "0",
+            "Spacing": "1",
+            "StartsNewPage": "No",
+            "id": "7063a252-d881-4772-8d95-e868ebce9ac8"
+          }
+        }
+      ],
+      "content_equal_except_auxiliary_beat_paragraph_ids": true
+    },
+    {
+      "document": "02-scenes",
+      "before": "02-scenes-omitted-body.fdx",
+      "after": "02-scenes-final-reopened.fdx",
+      "equal_subtrees": {
+        "Content": true,
+        "PageLayout": true,
+        "LockedPages": true,
+        "MoresAndContinueds": true,
+        "ElementSettings": true,
+        "SmartType": true
+      },
+      "attribute_changes_in_content": [],
+      "content_equal_except_auxiliary_beat_paragraph_ids": true
+    },
+    {
+      "document": "03-pagination",
+      "before": "03-pagination-spacing.fdx",
+      "after": "03-pagination-final-reopened.fdx",
+      "equal_subtrees": {
+        "Content": false,
+        "PageLayout": true,
+        "LockedPages": true,
+        "MoresAndContinueds": true,
+        "ElementSettings": true,
+        "SmartType": true
+      },
+      "attribute_changes_in_content": [
+        {
+          "path": "Content/Paragraph[0]/SceneProperties[0]/SceneArcBeats[0]/CharacterArcBeat[0]/Paragraph[0]",
+          "before": {
+            "Alignment": "Left",
+            "FirstIndent": "0.00",
+            "Leading": "Regular",
+            "LeftIndent": "0.00",
+            "OutlineLevel": "0",
+            "RightIndent": "1.39",
+            "SpaceBefore": "0",
+            "Spacing": "1",
+            "StartsNewPage": "No",
+            "id": "958a99dd-6889-4cfd-b15d-c7aa8adf8a38"
+          },
+          "after": {
+            "Alignment": "Left",
+            "FirstIndent": "0.00",
+            "Leading": "Regular",
+            "LeftIndent": "0.00",
+            "OutlineLevel": "0",
+            "RightIndent": "1.39",
+            "SpaceBefore": "0",
+            "Spacing": "1",
+            "StartsNewPage": "No",
+            "id": "421a2a7f-ca8a-419f-9521-0aff123c9481"
+          }
+        },
+        {
+          "path": "Content/Paragraph[0]/SceneProperties[0]/SceneArcBeats[0]/CharacterArcBeat[1]/Paragraph[0]",
+          "before": {
+            "Alignment": "Left",
+            "FirstIndent": "0.00",
+            "Leading": "Regular",
+            "LeftIndent": "0.00",
+            "OutlineLevel": "0",
+            "RightIndent": "1.39",
+            "SpaceBefore": "0",
+            "Spacing": "1",
+            "StartsNewPage": "No",
+            "id": "940ee53d-6783-449f-b346-c6199defd616"
+          },
+          "after": {
+            "Alignment": "Left",
+            "FirstIndent": "0.00",
+            "Leading": "Regular",
+            "LeftIndent": "0.00",
+            "OutlineLevel": "0",
+            "RightIndent": "1.39",
+            "SpaceBefore": "0",
+            "Spacing": "1",
+            "StartsNewPage": "No",
+            "id": "69c108fe-0333-4a4d-9874-72dc3ea1bc67"
+          }
+        }
+      ],
+      "content_equal_except_auxiliary_beat_paragraph_ids": true
+    },
+    {
+      "document": "04-dual",
+      "before": "04-dual-edited.fdx",
+      "after": "04-dual-final-reopened.fdx",
+      "equal_subtrees": {
+        "Content": true,
+        "PageLayout": true,
+        "LockedPages": true,
+        "MoresAndContinueds": true,
+        "ElementSettings": true,
+        "SmartType": true
+      },
+      "attribute_changes_in_content": [],
+      "content_equal_except_auxiliary_beat_paragraph_ids": true
+    }
+  ],
+  "files": [
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/01-editor-baseline.fdx",
+      "bytes": 49327,
+      "sha256": "44b51c4362e4099ec1c552b9c73e4dc8a62482e81484d774beb20eadc05aaead",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/01-editor-custom-return-confirmed.fdx",
+      "bytes": 51665,
+      "sha256": "88cf9b0301ca49dafbce076dfb1076372f10ab32d963f58e7954c2999205fd26",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/01-editor-custom-return.fdx",
+      "bytes": 51530,
+      "sha256": "128f9cd003505953cd90c468800b5f0bfb0e3f730992a12b9dde285432782cc6",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/01-editor-final-reopened.fdx",
+      "bytes": 51665,
+      "sha256": "bd46c64e9771087e46db083de613468f783463c1b77af6e90bdb9b6421113619",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/01-editor-pre.fdx",
+      "bytes": 49827,
+      "sha256": "03d959c9d0efa09b20356e681dd5f526c4040b71e391d1083565f433b5666819",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/01-editor-smarttype-enter.fdx",
+      "bytes": 49960,
+      "sha256": "8d8e000fa589479833aa4b2b6e0fcb277d7738dbaea246897a106f0f83a13296",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/01-editor.fdx",
+      "bytes": 51665,
+      "sha256": "bd46c64e9771087e46db083de613468f783463c1b77af6e90bdb9b6421113619",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/02-scenes-1A.fdx",
+      "bytes": 49332,
+      "sha256": "b5a8e6186611a510828ece7fdcbef533977550a73949e64b80312564ef211fe3",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/02-scenes-final-reopened.fdx",
+      "bytes": 49780,
+      "sha256": "96a9d5a8efd58923970e143f9f76983b6a275eea62123370da4891f33d7c306f",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/02-scenes-inserted.fdx",
+      "bytes": 49320,
+      "sha256": "bc357c2c3c8a7298f565fece408d6d665ca1e4a693602f7fda5b20ed0f3d666c",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/02-scenes-moved.fdx",
+      "bytes": 49444,
+      "sha256": "5e644f82ae610d803bd63de835795ce7ea15f32cd54026952ea2d0a18b2a5428",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/02-scenes-numbered.fdx",
+      "bytes": 49080,
+      "sha256": "15ca9ad5260ad00d6578f413785d70548a3602af887ee9f675bd7ab7f3ae6cab",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/02-scenes-omitted-body.fdx",
+      "bytes": 49780,
+      "sha256": "96a9d5a8efd58923970e143f9f76983b6a275eea62123370da4891f33d7c306f",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/02-scenes-omitted.fdx",
+      "bytes": 49699,
+      "sha256": "1736b6ac025ce1c614e858de996bb2bbb5262cab1fa1b29d7135453c8f0fab2c",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/02-scenes-pre.fdx",
+      "bytes": 49043,
+      "sha256": "d0425d3b70b956754a555242a05ac8fd4a951ac0ecacd22c9caf47a0d108ddc2",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/02-scenes-renumbered.fdx",
+      "bytes": 49331,
+      "sha256": "6bbcd3fecf3f34da27eb9b08319f32b1ad25d6584ac633f4d76d36b5241c004e",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/02-scenes-reopened.fdx",
+      "bytes": 49699,
+      "sha256": "1736b6ac025ce1c614e858de996bb2bbb5262cab1fa1b29d7135453c8f0fab2c",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/02-scenes.fdx",
+      "bytes": 49780,
+      "sha256": "96a9d5a8efd58923970e143f9f76983b6a275eea62123370da4891f33d7c306f",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-baseline-candidate-1.png",
+      "bytes": 254455,
+      "sha256": "0b0b3e4fd6aff4abe67d0a38ea8f2eb1d039d0bff818809a488528af61325e44",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-baseline-candidate-2.png",
+      "bytes": 209370,
+      "sha256": "88d9c0410f3e74514ea7dcf1f3d61fbb9f60b8e41cd4ccea2bbbf5e8b8878cb0",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-baseline-candidate-3.png",
+      "bytes": 160555,
+      "sha256": "c357ed8ed98a79492585c2a60493bb269b9427e2893b5772385779eac1659804",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-lock-candidate-1.png",
+      "bytes": 287788,
+      "sha256": "7de5d96716fbadcd234d48f8d668c2e1d75bb1fb25819dfc5954d34676784edf",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-lock-candidate-2.png",
+      "bytes": 67919,
+      "sha256": "ccd8e30afc89d27c330e77ebef54f566108eecf40f49be62a09853709685d4b8",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-lock-candidate-3.png",
+      "bytes": 209370,
+      "sha256": "88d9c0410f3e74514ea7dcf1f3d61fbb9f60b8e41cd4ccea2bbbf5e8b8878cb0",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-lock-candidate-4.png",
+      "bytes": 160555,
+      "sha256": "c357ed8ed98a79492585c2a60493bb269b9427e2893b5772385779eac1659804",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-locked-page-2.png",
+      "bytes": 64241,
+      "sha256": "a1960673f75a0ee99d5c332e34604739b68e73b1ae066d403b7fc9ddc77f45af",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-margin-spacing-cairo-1.png",
+      "bytes": 139385,
+      "sha256": "51809ebba7f5df8593ec587568bcec8dcd2a41e74949e34fdc2e2aae07ffcbb1",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-margin-spacing-cairo-2.png",
+      "bytes": 132615,
+      "sha256": "6d16281471876254de064a3fa7bd497043ba60a1149fd31dfa5b597873c24de1",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-margin-spacing-cairo-3.png",
+      "bytes": 138460,
+      "sha256": "65936f720436ae4fe235575f19554726ad98ec91cc4c5da510076e9bb38e9691",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-margin-spacing-cairo-4.png",
+      "bytes": 14508,
+      "sha256": "3c353e675d44299f6c0b0cc8688808033f4d75f08f0da523980552a0dc82ca99",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-margin-spacing-cairo-5.png",
+      "bytes": 112297,
+      "sha256": "86120d519341108a2520d183de95b42238298f4664cebf1e6f8e03fd980702f0",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-margin-spacing-candidate-1.png",
+      "bytes": 188035,
+      "sha256": "c9c99cd403c8a65f3a97b703be42a6f7f6b319bbdf18131e502b4b68ce0c447d",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-margin-spacing-candidate-2.png",
+      "bytes": 178506,
+      "sha256": "9481a1f9a7987a10a25ae94ae8c804d0bf3eca0c9c05d6933a0ae6ee39cb1889",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-margin-spacing-candidate-3.png",
+      "bytes": 197713,
+      "sha256": "daab7c1ece9f412844429c6eee60ef23885e7ff8b57cc33831542dff4a3dcfb5",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-margin-spacing-candidate-4.png",
+      "bytes": 18925,
+      "sha256": "9f8a884935c094ef902a664ec71cbabb9d20d4f859559ee8dfcfadc46f4b3e39",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-margin-spacing-candidate-5.png",
+      "bytes": 160967,
+      "sha256": "361be0d296c5be34c0920fda673b395839dc4828ff771ebc10ac1d0994d4e13d",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-pagination-baseline.fdx",
+      "bytes": 55638,
+      "sha256": "09a5e5eb6fc38473cc9132740117f932adf565a48fda20dc50046ee40dffcff8",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-pagination-cairo-3.png",
+      "bytes": 160555,
+      "sha256": "c357ed8ed98a79492585c2a60493bb269b9427e2893b5772385779eac1659804",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-pagination-dual.fdx",
+      "bytes": 56100,
+      "sha256": "fd573bedd3e37df69f6dc92e40d0b8ab176bf778037e634eac1e0b9e39218635",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-pagination-final-reopened.fdx",
+      "bytes": 57128,
+      "sha256": "d52627064fbfe9b0793ff3081209187f9cbf4da75fe73860ab7852d394fb0af5",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-pagination-locked-edited-mupdf-1.png",
+      "bytes": 237875,
+      "sha256": "5409b55c51ac69ab71d0d653d0c603b5c31a93789a41ef78ef4f8b10322691cb",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-pagination-locked-edited-mupdf-2.png",
+      "bytes": 66468,
+      "sha256": "243575cd7d66d10d0c624170cc01a75e51d92e02172715aae702ea6147bad4ff",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-pagination-locked-edited-mupdf-3.png",
+      "bytes": 197618,
+      "sha256": "c553b95ff0045214f3e4802a8b88610072884dd1ddf5ccb0e7fe8f953cf32058",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-pagination-locked-edited-mupdf-4.png",
+      "bytes": 152877,
+      "sha256": "5389fc314ddd9dc59f94ab18cf5be6a85107fcc8aa9d03541c32a09eaeb5cec0",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-pagination-locked-edited.fdx",
+      "bytes": 56961,
+      "sha256": "b8002ef7714886864e0a75de5acbbcfcdb55cdb43862f1ab8837cf80a3fd034a",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-pagination-locked-edited.pdf",
+      "bytes": 74514,
+      "sha256": "f936ffe43a7db9099b6d9d0a542737ff3036f86200babc1f6b72b9fa22b1792d",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-pagination-locked.fdx",
+      "bytes": 55921,
+      "sha256": "1bbbb3397ef20d5f7cb292a859e088bbeee94af9b0394e87b234f9e61c457c4c",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-pagination-margin-spacing-mupdf-1.png",
+      "bytes": 154144,
+      "sha256": "8f8781a7cc0aa21fabaccc4d9a14b58bd76ab52886404747b09dc5c1040e8866",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-pagination-margin-spacing-mupdf-2.png",
+      "bytes": 156955,
+      "sha256": "afe0c51e86ef3b26ad265533288f09dbfc6a790463fbe4a0a309315667e07e80",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-pagination-margin-spacing-mupdf-3.png",
+      "bytes": 187510,
+      "sha256": "f6d98ec807879460cfeb4d134755a3098046446ff5b780eae6254d55e4be255a",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-pagination-margin-spacing-mupdf-4.png",
+      "bytes": 21256,
+      "sha256": "894c12114cbe281a50cad0120686e4e153a48f7a6a876baf0e5801292a793c5a",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-pagination-margin-spacing-mupdf-5.png",
+      "bytes": 153031,
+      "sha256": "95c8ed0ed35ccee2a633e8835ef98a0708c63a69919e6926eb999d441d142ea0",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-pagination-margin-spacing.pdf",
+      "bytes": 80006,
+      "sha256": "2bb171362eeca9e96850fd900707d6d0e289da1fe268fc96ec32c92963f5088d",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-pagination-margin-spacing.txt",
+      "bytes": 7567,
+      "sha256": "e784c7c3bf2c0b0642c2b71976650718b86c04b5402364f3508f670d44e95727",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-pagination-margin.fdx",
+      "bytes": 56962,
+      "sha256": "29f97023d3a50a7d7d8a67a47510eef9ab446af44af221e2d318df342f14d5e9",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-pagination-mupdf-1.png",
+      "bytes": 219567,
+      "sha256": "aadf0e960840713c959e7600b042a75b7d25875272f11f74305987abffe8b1b9",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-pagination-mupdf-2.png",
+      "bytes": 197618,
+      "sha256": "c553b95ff0045214f3e4802a8b88610072884dd1ddf5ccb0e7fe8f953cf32058",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-pagination-mupdf-3.png",
+      "bytes": 152877,
+      "sha256": "5389fc314ddd9dc59f94ab18cf5be6a85107fcc8aa9d03541c32a09eaeb5cec0",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-pagination-page-1.png",
+      "bytes": 235202,
+      "sha256": "e866b59a0646bfb0ec6d5e9370476aaf8cab92b588da3c7fbbf7088d5834fe50",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-pagination-page-2.png",
+      "bytes": 197888,
+      "sha256": "42c16de5a491fa328f806947756b938c701d961b3e2192bd822561379532c40a",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-pagination-page-3.png",
+      "bytes": 152365,
+      "sha256": "8026df53a6c4e4f6601fb15a53db766d1030939f2400dca01b91220e48744874",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-pagination-spacing.fdx",
+      "bytes": 57128,
+      "sha256": "f06c51c89b95e004fb3934ffbc827bc28ab75c88159a486dd37af04930a97bfc",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-pagination.fdx",
+      "bytes": 57128,
+      "sha256": "d52627064fbfe9b0793ff3081209187f9cbf4da75fe73860ab7852d394fb0af5",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-pagination.pdf",
+      "bytes": 65758,
+      "sha256": "ce0a9c489914869346a3b1f9090ca358bfcbfdd2562d9c980407bc4473f4c9c9",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/03-recheck-3.png",
+      "bytes": 160555,
+      "sha256": "c357ed8ed98a79492585c2a60493bb269b9427e2893b5772385779eac1659804",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/04-dual-after.fdx",
+      "bytes": 49028,
+      "sha256": "bad0c3b7db898d6f25161903a8e3b1f9d9ef18f98453f9b49c4dfa4f4d6b53b5",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/04-dual-before.fdx",
+      "bytes": 48568,
+      "sha256": "739df81d612bc87d3fb2fef6dfdb77dcc323848552f447e741efb4a989a9ebb4",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/04-dual-cairo-1.png",
+      "bytes": 11042,
+      "sha256": "ca13adba2ad5ac9455233cb7c492cf5333cb55bcd56a952e6e99d7b05288c531",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/04-dual-edited.fdx",
+      "bytes": 49039,
+      "sha256": "9ef11611631a4f82aa9bfcc70dc8f04fafceb61acc69e66bc5324c9c0f66b52f",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/04-dual-final-reopened.fdx",
+      "bytes": 49039,
+      "sha256": "9ef11611631a4f82aa9bfcc70dc8f04fafceb61acc69e66bc5324c9c0f66b52f",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/04-dual-mupdf-1.png",
+      "bytes": 15961,
+      "sha256": "4c5fcb4b8e75a5f55842284181e1adea29ef580f477722e1252265a017af4465",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/04-dual-reopened.fdx",
+      "bytes": 49028,
+      "sha256": "bad0c3b7db898d6f25161903a8e3b1f9d9ef18f98453f9b49c4dfa4f4d6b53b5",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/04-dual.fdx",
+      "bytes": 49039,
+      "sha256": "9ef11611631a4f82aa9bfcc70dc8f04fafceb61acc69e66bc5324c9c0f66b52f",
+      "committed": false
+    },
+    {
+      "path": "plan/final-draft/runtime-2026-11-07/04-dual.pdf",
+      "bytes": 13622,
+      "sha256": "6e7e3ca9d036450ce772a2fc194a4ed2d95d3b3e8a75b0d03996cdbc75b8de6d",
+      "committed": false
+    }
+  ],
+  "visual_review": {
+    "gui": "Screenshots da janela sintética observados no histórico cua_repl; não exportados como assets do repo.",
+    "pdfs": "Originais exportados pelo Final Draft; contagens e texto conferidos.",
+    "pngs": "Renders, não screenshots. Previews de algumas páginas divergem inclusive com SHA idêntico; candidate indica tentativa de conferência, não golden homologado.",
+    "renderers": [
+      "Poppler 26.03.0 pdftoppm/pdftocairo",
+      "MuPDF binding VersionBind=2.1, dependência temporária fora do repositório"
+    ],
+    "approved_visual_claims": [
+      "GUI: duas colunas no dual curto, parentética à esquerda",
+      "GUI: continuação legível da terceira página baseline",
+      "PDF/texto: baseline 3 páginas; lock editado 4 páginas; margem+spacing 5 páginas"
+    ],
+    "pending": "Homologação visual independente completa das páginas posteriores da variante margem/spacing e do dual longo."
+  },
+  "reference_pairs": [
+    {
+      "fdx": "03-pagination-baseline.fdx",
+      "pdf": "03-pagination.pdf"
+    },
+    {
+      "fdx": "03-pagination-locked-edited.fdx",
+      "pdf": "03-pagination-locked-edited.pdf"
+    },
+    {
+      "fdx": "03-pagination-spacing.fdx",
+      "pdf": "03-pagination-margin-spacing.pdf"
+    },
+    {
+      "fdx": "04-dual-after.fdx",
+      "pdf": "04-dual.pdf",
+      "note": "PDF anterior à edição que acrescentou Confirmed.; não comparar com edited sem levar essa alteração em conta."
+    }
+  ],
+  "ci_attempts": [
+    {
+      "phase": "initial research delivery",
+      "command": "cargo xtask ci",
+      "exit_code": 127,
+      "result": "command not found: cargo",
+      "log": "/tmp/finalcraft-fd-ci-20261107.log",
+      "commit_created": false
+    }
+  ],
+  "ci": {
+    "phase": "authorized documentary integration",
+    "command": "cargo xtask ci",
+    "status": "failed",
+    "completed_steps": [
+      "fmt",
+      "clippy"
+    ],
+    "toolchain": "1.95.0-aarch64-apple-darwin",
+    "base_commit": "b2734c28f455d1961766c6a668d848297d327b88",
+    "branch": "codex/final-draft-research-docs",
+    "log": "/Users/luizcampos/.cache/finalcraft-validation/logs/2026-11-07/ci.log",
+    "environment": {
+      "CARGO_BUILD_JOBS": "2",
+      "CARGO_TARGET_DIR": "/Users/luizcampos/.cache/finalcraft-validation/target",
+      "CRAFT_I18N_DIR": "/Users/luizcampos/.cache/finalcraft-validation/craft-i18n",
+      "CRAFT_I18N_REQUIRED": "1",
+      "CRAFT_FONTS_DIR": "/Users/luizcampos/.cache/finalcraft-validation/craft-fonts",
+      "CRAFT_FONTS_REQUIRED": "1"
+    },
+    "data_revisions": {
+      "craft-i18n": "9d6d54d6d9ff603cc41e12e5f6ba51af3554ab66",
+      "craft-fonts": "b076417b5880bd4154bd22f00695b1d28c6bea83"
+    },
+    "test_runner": "cargo test fallback provided by xtask; nextest not installed",
+    "scope": "Documentary integration only; no new reverse engineering or functional implementation.",
+    "exit_code": 1,
+    "failed_step": "test",
+    "skipped_steps": [
+      "i18n-report",
+      "language",
+      "doctest",
+      "assets",
+      "layers",
+      "wasm"
+    ],
+    "log_sha256": "9ad857a8f4c16ed3c4185fbb968dcfbe578397ac9f51c13a5c31cd6a451dca3f",
+    "test_summary_before_gate_stopped": {
+      "passed": 2208,
+      "failed": 1,
+      "ignored": 0,
+      "engine_passed": 1193,
+      "engine_failed": 1
+    },
+    "failure": {
+      "test": "tests::review_language_validates_tags_and_marks_text_unchecked",
+      "location": "crates/engine/src/tests.rs:9383",
+      "expected": "No issues for fr-FR, assumed to have no proofing dictionary",
+      "observed": "French spelling issue for wrold",
+      "reproduced_in_isolated_existing_test_binary": true,
+      "isolated_exit_code": 101,
+      "isolated_log": "/Users/luizcampos/.cache/finalcraft-validation/logs/2026-11-07/isolated-language-test-binary.log",
+      "environment_evidence": "/Applications/LibreOffice.app/Contents/Resources/extensions/dict-fr contains fr.aff and fr.dic; craft-proof searches this system location. No dictionaries or source files were modified.",
+      "resolution_required": "Make the existing test independent of installed system dictionaries, or provide an isolated CI environment; neither was implemented in this documentary task."
+    },
+    "integration_decision": "Gate not approved; no documentary commit created."
+  }
+}

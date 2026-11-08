@@ -1,0 +1,252 @@
+{
+  "date": "2026-11-07",
+  "authority": "XML de documentos sintéticos gerados por ações reais no Final Draft; comparação por parser, sem edição externa das entradas",
+  "scene_states": {
+    "02-scenes-pre": {
+      "INT. LABORATORIO BETA - DIA": {
+        "id": "f1d8f77c-5c06-42c2-a07a-2c6c68c9128f",
+        "number": null
+      },
+      "EXT. PATIO GAMA - NOITE": {
+        "id": "387e0057-f672-4d8e-9e5f-a0eaeb441bb9",
+        "number": null
+      }
+    },
+    "02-scenes-numbered": {
+      "INT. LABORATORIO BETA - DIA": {
+        "id": "f1d8f77c-5c06-42c2-a07a-2c6c68c9128f",
+        "number": "1"
+      },
+      "EXT. PATIO GAMA - NOITE": {
+        "id": "387e0057-f672-4d8e-9e5f-a0eaeb441bb9",
+        "number": "2"
+      }
+    },
+    "02-scenes-inserted": {
+      "INT. LABORATORIO BETA - DIA": {
+        "id": "f1d8f77c-5c06-42c2-a07a-2c6c68c9128f",
+        "number": "1"
+      },
+      "INT. SALA DELTA - DIA": {
+        "id": "05272ed8-9bcf-4ae1-b9f7-9d7574d79b11",
+        "number": null
+      },
+      "EXT. PATIO GAMA - NOITE": {
+        "id": "387e0057-f672-4d8e-9e5f-a0eaeb441bb9",
+        "number": "2"
+      }
+    },
+    "02-scenes-1A": {
+      "INT. LABORATORIO BETA - DIA": {
+        "id": "f1d8f77c-5c06-42c2-a07a-2c6c68c9128f",
+        "number": "1"
+      },
+      "INT. SALA DELTA - DIA": {
+        "id": "05272ed8-9bcf-4ae1-b9f7-9d7574d79b11",
+        "number": "1A"
+      },
+      "EXT. PATIO GAMA - NOITE": {
+        "id": "387e0057-f672-4d8e-9e5f-a0eaeb441bb9",
+        "number": "2"
+      }
+    },
+    "02-scenes-renumbered": {
+      "INT. LABORATORIO BETA - DIA": {
+        "id": "f1d8f77c-5c06-42c2-a07a-2c6c68c9128f",
+        "number": "1"
+      },
+      "INT. SALA DELTA - DIA": {
+        "id": "05272ed8-9bcf-4ae1-b9f7-9d7574d79b11",
+        "number": "2"
+      },
+      "EXT. PATIO GAMA - NOITE": {
+        "id": "387e0057-f672-4d8e-9e5f-a0eaeb441bb9",
+        "number": "3"
+      }
+    },
+    "02-scenes-moved": {
+      "EXT. PATIO GAMA - NOITE": {
+        "id": "387e0057-f672-4d8e-9e5f-a0eaeb441bb9",
+        "number": "3"
+      },
+      "INT. LABORATORIO BETA - DIA": {
+        "id": "f1d8f77c-5c06-42c2-a07a-2c6c68c9128f",
+        "number": "1"
+      },
+      "INT. SALA DELTA - DIA": {
+        "id": "05272ed8-9bcf-4ae1-b9f7-9d7574d79b11",
+        "number": "2"
+      }
+    }
+  },
+  "scene_move": [
+    [
+      "Scene Heading",
+      "387e0057-f672-4d8e-9e5f-a0eaeb441bb9",
+      "EXT. PATIO GAMA - NOITE"
+    ],
+    [
+      "Action",
+      "b7819e97-6849-4753-aa29-d7863448c189",
+      "Uma luz acende no painel."
+    ],
+    [
+      "Scene Heading",
+      "f1d8f77c-5c06-42c2-a07a-2c6c68c9128f",
+      "INT. LABORATORIO BETA - DIA"
+    ],
+    [
+      "Action",
+      "bb9992d4-f1da-406d-88b1-c8ac6fac7bd7",
+      "Caixa verde fica sobre a mesa."
+    ],
+    [
+      "Scene Heading",
+      "05272ed8-9bcf-4ae1-b9f7-9d7574d79b11",
+      "INT. SALA DELTA - DIA"
+    ],
+    [
+      "Action",
+      "be919dbe-a0da-4f60-85ba-1531e7fc9a81",
+      ""
+    ]
+  ],
+  "omitted_with_body": {
+    "outer": {
+      "Number": "3",
+      "Type": "Scene Heading",
+      "id": "387e0057-f672-4d8e-9e5f-a0eaeb441bb9"
+    },
+    "outer_text": "Omitted",
+    "saved_content": [
+      {
+        "attributes": {
+          "Type": "Scene Heading",
+          "id": "387e0057-f672-4d8e-9e5f-a0eaeb441bb9"
+        },
+        "text": "EXT. PATIO GAMA - NOITE"
+      },
+      {
+        "attributes": {
+          "Type": "Action",
+          "id": "b7819e97-6849-4753-aa29-d7863448c189"
+        },
+        "text": "Uma luz acende no painel."
+      }
+    ]
+  },
+  "dual": {
+    "wrapper": {
+      "Alignment": "Left",
+      "FirstIndent": "0.00",
+      "Leading": "Regular",
+      "LeftIndent": "1.50",
+      "RightIndent": "7.50",
+      "SpaceBefore": "12",
+      "Spacing": "1",
+      "StartsNewPage": "No",
+      "Type": "General",
+      "id": "ea1f66b3-a7f8-4d25-942e-b727d972fc4c"
+    },
+    "before_ids": [
+      "c10f7999-40ed-45dc-90d6-a953eb2e7468",
+      "1dc8dbfe-d781-4450-8bc8-e71d06d3bfe9",
+      "2da67e65-3236-49a3-bbb8-8963cbe5e625",
+      "6efc2490-42f0-4e8b-a0bb-eb51620cfbb2",
+      "68c14fdb-915b-479a-836b-98039b085740",
+      "577d2c1b-711a-4094-b5fd-08f429e502ce"
+    ],
+    "after_ids": [
+      "c10f7999-40ed-45dc-90d6-a953eb2e7468",
+      "1dc8dbfe-d781-4450-8bc8-e71d06d3bfe9",
+      "2da67e65-3236-49a3-bbb8-8963cbe5e625",
+      "6efc2490-42f0-4e8b-a0bb-eb51620cfbb2",
+      "68c14fdb-915b-479a-836b-98039b085740",
+      "577d2c1b-711a-4094-b5fd-08f429e502ce"
+    ],
+    "edited_last_text": "The green lamp answers. Confirmed."
+  },
+  "lock": {
+    "before": [
+      {
+        "Deleted": "0",
+        "LevelIndex": "0",
+        "LockLevel": "0",
+        "PageNumber": "1",
+        "Position": "0"
+      },
+      {
+        "Deleted": "0",
+        "LevelIndex": "1",
+        "LockLevel": "0",
+        "PageNumber": "2",
+        "Position": "2666"
+      },
+      {
+        "Deleted": "0",
+        "LevelIndex": "2",
+        "LockLevel": "0",
+        "PageNumber": "3",
+        "Position": "4574"
+      }
+    ],
+    "after_inserting_1040_ASCII_characters": [
+      {
+        "Deleted": "0",
+        "LevelIndex": "0",
+        "LockLevel": "0",
+        "PageNumber": "1",
+        "Position": "0"
+      },
+      {
+        "Deleted": "0",
+        "LevelIndex": "1",
+        "LockLevel": "0",
+        "PageNumber": "2",
+        "Position": "3706"
+      },
+      {
+        "Deleted": "0",
+        "LevelIndex": "2",
+        "LockLevel": "0",
+        "PageNumber": "3",
+        "Position": "5614"
+      }
+    ]
+  },
+  "format": {
+    "page_layout": {
+      "BottomMargin": "72",
+      "BreakDialogueAndActionAtSentences": "Yes",
+      "DocumentLeading": "Normal",
+      "FooterMargin": "36",
+      "HeaderMargin": "36",
+      "InvisiblesColor": "#808080808080",
+      "TopMargin": "108",
+      "UsesSmartQuotes": "Yes"
+    },
+    "action_paragraph": {
+      "Alignment": "Left",
+      "FirstIndent": "0.00",
+      "Leading": "Regular",
+      "LeftIndent": "1.50",
+      "RightIndent": "7.50",
+      "SpaceBefore": "12",
+      "Spacing": "1.5",
+      "StartsNewPage": "No",
+      "Type": "Action",
+      "id": "9c45b126-5eee-483e-bd03-c831cdda4798"
+    },
+    "first_text_run": {
+      "Style": "Bold"
+    }
+  },
+  "custom_action_behavior_after_reopen": {
+    "PaginateAs": "Action",
+    "ReturnKey": "Character",
+    "Shortcut": "2",
+    "TabKey": "Character",
+    "WinShortcut": "2"
+  },
+  "checks": "Todas as comparações/asserts listadas acima passaram; não são testes do WordCraft."
+}
