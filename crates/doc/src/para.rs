@@ -38,6 +38,9 @@ pub struct Paragraph {
     /// Set when this paragraph ends a section (OOXML keeps `w:sectPr` on the last paragraph).
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub section: Option<Box<SectionProps>>,
+    /// Screenplay role and optional source identifiers. Ordinary paragraphs leave this unset.
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub script: Option<crate::ScriptParagraph>,
     /// Change counter for caches (not part of equality).
     #[serde(skip, default = "next_rev")]
     pub rev: u64,
@@ -51,6 +54,7 @@ impl PartialEq for Paragraph {
             && self.mark == o.mark
             && self.objects == o.objects
             && self.section == o.section
+            && self.script == o.script
     }
 }
 
@@ -69,6 +73,7 @@ impl Paragraph {
             mark: CharProps::default(),
             objects: Vec::new(),
             section: None,
+            script: None,
             rev: next_rev(),
         }
     }
@@ -468,6 +473,7 @@ impl Paragraph {
             mark: if self.text.is_empty() && off == 0 { self.mark.clone() } else { carry },
             objects: tail_objs,
             section: self.section.take(),
+            script: self.script.as_ref().map(|sp| crate::ScriptParagraph::new(sp.kind.clone())),
             rev: next_rev(),
         };
         if tail.text.is_empty() {

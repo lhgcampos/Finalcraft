@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FinalDraft DocumentType="Script" Template="No" Version="6">
+  <Content>
+    <Paragraph Type="Scene Heading" id="room" Number="1A" LeftIndent="1.5" RightIndent="7.5"><Text Font="Courier Prime" Size="12" Style="AllCaps">INT. SALA DE RÁDIO</Text></Paragraph>
+    <Paragraph Type="Action" SpaceBefore="12" Spacing="1.5"><Text Font="Courier Prime" Size="12">Luz &amp; sombra. </Text><Text Font="Courier Prime" Size="12" Style="Bold+Italic">Sinal &lt;azul&gt;.</Text></Paragraph>
+    <Paragraph Type="Character" LeftIndent="3.5"><Text Font="Courier Prime" Size="12">LIA</Text></Paragraph>
+    <Paragraph Type="Parenthetical" LeftIndent="3"><Text Font="Courier Prime" Size="12">(ao rádio)</Text></Paragraph>
+    <Paragraph Type="Dialogue" LeftIndent="2.5" RightIndent="6"><Text Font="Courier Prime" Size="12">Ouvem-me?</Text></Paragraph>
+    <Paragraph Type="Shot"><Text Font="Courier Prime" Size="12">O MOSTRADOR</Text></Paragraph>
+    <Paragraph Type="Transition" Alignment="Right"><Text Font="Courier Prime" Size="12" Style="Underline">CORTE.</Text></Paragraph>
+    <Paragraph Type="Nota"><Text Font="Courier Prime" Size="12">Amanhã.</Text></Paragraph>
+    <Paragraph Type="General"><Text Font="Courier Prime" Size="12"/></Paragraph>
+  </Content>
+  <PageLayout TopMargin="90" BottomMargin="72" HeaderMargin="30" FooterMargin="36">
+    <PageSize Width="8.5" Height="11"/>
+  </PageLayout>
+</FinalDraft>

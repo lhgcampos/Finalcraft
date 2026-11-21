@@ -243,6 +243,7 @@ fn format_name(ext: &str) -> String {
         "png" => "PNG Image".into(),
         "json" => "JSON".into(),
         "xml" => "XML".into(),
+        "fdx" => "Final Draft Script".into(),
         other => other.to_ascii_uppercase(),
     }
 }
