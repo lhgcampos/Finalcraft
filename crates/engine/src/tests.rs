@@ -16,6 +16,7 @@ mod font_sizes;
 mod fonts;
 mod ime_noop;
 mod revision_checks;
+mod screenplay;
 mod typing;
 mod wordart;
 

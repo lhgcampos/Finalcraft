@@ -40,6 +40,8 @@ pub mod math_symbols;
 pub mod numbering;
 pub mod para;
 pub mod props;
+mod screenplay;
+pub use screenplay::{ScriptParagraph, ScriptParagraphKind};
 pub mod resolve;
 pub mod section;
 pub mod smart_art;
